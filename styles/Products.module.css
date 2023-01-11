@@ -1,0 +1,39 @@
+.product_container {
+    width: 80vw;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.product_main {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.searchbar {
+    margin: 15px;
+    padding: 15px;
+    width: 100%;
+    border: 1px solid var(--secondary-color);
+    border-radius: 15px;
+    outline: none;
+    color: var(--primary-color);
+}
+
+.feedback {
+    margin: 20px;
+    color: var(--text-color);
+}
+
+.myTokens {
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px #ccc dotted;
+}

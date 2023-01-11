@@ -1,0 +1,72 @@
+.container {
+    height: 80vh;
+    margin: 20px;
+}
+
+.container h1 {
+    color: var(--text-color);
+}
+
+.featured {
+    color: var(--third-color) !important;
+}
+
+.icon_container {
+    display: flex;
+}
+
+.icon {
+    margin: 0 5px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    border: 1px solid var(--text-color);
+    align-items: center;
+    justify-content: center;
+}
+
+.detailImg {
+   width: 100%;
+   border-radius: 15px;
+}
+
+.contentContainer{
+    width: 70vw;
+}
+
+.basicInfo {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.infoContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.infoBTN {
+    background-color: var(--third-color);
+    color: var(--fifth-color);
+    padding: 20px;
+    border: 0;
+    outline: 0;
+    box-shadow: 0;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.infoBTN:hover {
+    background-color: var(--primary-color);
+}
+
+.input {
+    padding: 20px;
+    border: 0;
+    text-align: right;
+}
+
+.feddback {
+    color: var(--text-color);
+}

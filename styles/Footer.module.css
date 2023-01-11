@@ -1,0 +1,23 @@
+.footer {
+    width: 78%;
+    height: 50px;
+    background-color: var(--fifth-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 15px;
+    font-family: var(--text-font);
+    color: var(--text-color);
+    box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+    z-index: 1;
+    font-size: 14px;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+}
+
+@media(max-width:1100px) {
+    .footer {
+        width: 100%;
+    }
+}

@@ -1,0 +1,44 @@
+.nav {
+    margin-left: 0;
+    width: 100%;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    margin-right: 0;
+    width: 100%;
+    animation: fadeIn 0.6s;
+}
+
+@keyframes fadeIn {
+    0% {opacity:0};
+    100% {opacity:1};
+}
+
+.menu li {
+    height: 30px;
+    color: var(--fourth-color);
+    width: 100%;
+}
+
+.menu li a {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 25px;
+    height: 100%;
+    border-left: 3px solid var(--primary-color);
+}
+
+.menu li a:hover {
+    color: var(--fifth-color);
+    border-left: 3px solid var(--third-color);
+} 
+
+.icon {
+    margin-right: 7px;
+}

@@ -1,0 +1,136 @@
+:root {
+  --primary-color: #414e66;
+  --secondary-color: #f5f7fa;
+  --third-color: #4bd5e9;
+  --fourth-color: #d4e2fa;
+  --fifth-color: white;
+  --text-color: #999;
+  --text-main-color: #666;
+  --text-title-color: #333;
+  --text-font: Roboto;
+  --title-font: Akira;
+}
+
+html,
+body {
+  width: 100vw;
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+  font-family: var(--text-font);
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: var(--title-font);
+  color: var(--text-title-color);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+p {
+  font-size: var(--text-font);
+  color: var(--text-main-color);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.cardContainer {
+  display: flex;
+  width: 78%;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.pdn {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.separator {
+  margin-top: 10px;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url('../assets/fonts/Roboto-Regular.ttf');
+}
+
+@font-face {
+  font-family: Akira;
+  src: url('../assets/fonts/Akira.otf');
+}
+
+@media(max-width:1100px) {
+  .cardContainer {
+    width: 100%;
+  }
+}
+
+::-webkit-progress-bar {
+  background-color: var(--text-color);
+}
+
+::-webkit-progress-value {
+  background-color: var(--third-color);
+}
+
+::-moz-progress-bar {
+  background-color: var(--text-color);
+}
+
+::-moz-progress-value {
+  background-color: var(--third-color);
+}
+
+::progress-bar {
+  background-color: var(--text-color);
+}
+
+::progress-value {
+  background-color: var(--third-color);
+}
+
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-moz-scrollbar {
+  width: 8px;
+}
+::scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+}
+::-moz-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+}
+::scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--third-color);
+  border-radius: 10px;
+}
+::-moz-scrollbar-thumb {
+  background: var(--third-color);
+  border-radius: 10px;
+}
+::scrollbar-thumb {
+  background: var(--third-color);
+  border-radius: 10px;
+}
